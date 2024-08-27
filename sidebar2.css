@@ -1,0 +1,156 @@
+body {
+    font-family: "Lato", sans-serif;
+    transition: margin-left .5s;
+    padding: 0;
+    margin: 0;
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: black;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 10px;
+    }
+
+    .closebutton {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: transparent;
+        color: azure;
+        padding: 10px 10px;
+        border-radius: 9px;
+        border: 0;
+        margin-left: 70%;
+        margin-top: 5px;
+    }
+
+    .openbutton {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: black;
+        color: azure;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 9px;
+        visibility: visible;
+    }
+
+    .sidebar a {
+        padding: 8px 8px 8px 15px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+        font-size: 1.6em;
+        font-weight: bold;
+        color: red;
+        background-color: #f1f1f1;
+        margin: 0px 15px 15px 15px;
+        border-radius: 8px;
+        text-decoration: none;
+    }
+
+    .openbutton:hover {
+        background-color: #444;
+    }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 16px;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 71, 109, 0.799);
+}
+
+  .card {
+    width: 50%;
+    padding: 70px 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+   .image-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+   .image {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+   .name {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    color: #191825;
+    line-height: 42px;
+}
+
+  .status {
+    display: flex;
+    justify-content: center;
+    color: #ff0000;
+}
+
+  .description {
+    margin-top: 6px;
+    text-align: center;
+    font-weight: 500;
+}
+
+  .social {
+    margin-top: 12px;
+    width: 100%;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+  .social img {
+    width: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+ 
+.ig-social {
+    position: relative;
+    top: 63px;
+    left: 30%;
+} 
+
+ .tik-tok {
+    position: relative;
+    top: 2px;
+    left: 60%;
+ }
